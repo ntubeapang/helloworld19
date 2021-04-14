@@ -1,6 +1,6 @@
 # helloworld19
 # pull base image
-From tomcat:8.jrc8
+From tomcat:8.jdk8
 # Maintainer
-MAINTAINER "ntube_diana@yahoo.com"
+MAINTAINER "kserge2001@yahoo.fr"
 COPY ./webbapp/target/webapp.war/usr/local/tomcat/webapps
